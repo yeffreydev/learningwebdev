@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+      span {
+        color: green;
+      }
+      .padre {
+        width: inherit;
+        height: inherit;
+        background-color: red;
+      }
+      .hijo {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border: 10px solid green;
+        padding: 50px;
+        height: 50px;
+      }
+      #hijounico {
+        background-color: blueviolet;
+      }
+      /*existen mas selectores de css para poder hacer mejores diseños y estructurar la página web*/
+    </style>
+    <div>
+      <span>texto</span>
+    </div>
+    <div class="padre">
+      <div id="hijounico" class="hijo"></div>
+      <div class="hijo"></div>
+      <div class="hijo"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+**Estilos para Titulos y texto**
+
+----
+## Nota
+html = font-size = (10 valor deseado / 16px valor del px)
+----
+
+----
+# Font size (px = rem)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 /
+52 / 62 / 74 / 86 / 98 
+----
+
+----
+# Spacing (px = rem) 
+2 / 4 / 6 / 8 / 12 / 16 / 24 / 32 / 38 / 48 / 64 /
+80 / 96 / 128 
+----
+
+----
+# *Recomendaciones*
+
+## Titulos
+* Ir a tamaños mayores de 50px y un bold mas de 600.
+* Utilizar el texto en mayusuclas.
+* Centar el texto (considerando si son textos pequeños).
+* Utilizar un letter-spacing.
+----
+
+## Subtítulos
+* Tamaño de letra de los 40px
+* Bold de 500
+* Leter spacing
+----
+
+## Cuerpo
+* Weight no inferior a 400.
+* Tamaño de texto entre los 1.6 a 3.2 rem (16px a 32px).
+* Menos de 75 caracteres por linea para facilitar la lectura.
+* Line-height de 1.5 para espaciar las lineas.
+* Utilizar hyphens para aplicar (-) al texto dependiendo de las dimenasiones de la pantalla.
+----
+
+## Post o Aside
+* Tamaño del texto entre los 2rem a + (considerando la lectura del mismo).
+----
+
+## Footer
+* Menor tamaño del texto.

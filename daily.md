@@ -2,9 +2,10 @@
 
 ## 06 de junio del 2023
 
-- [ ] introducción a la terminal.
-- [ ] introducción a git y github.
-- [ ] posicionar elementos con, una tabla de nueve para centrar. con position absolute.
-- [ ] hacer un formulario, una carta de invitación.
+- [x] introducción a la terminal.
+- [x] introducción a git y github.
+- [x] posicionar elementos con, una tabla de nueve para centrar. con position absolute.
 
 ## 07 de junio del 2023
+
+- [ ] hacer un formulario, una carta de invitación.

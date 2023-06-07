@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>postion absolute con boxes</title>
+  </head>
+  <body>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      .padre {
+        border: 1px solid black;
+      }
+      .hijo {
+        width: 100px;
+        height: 100px;
+        border: 1px solid red;
+        display: inline-block;
+        position: relative;
+      }
+      .hijo span {
+        background-color: black;
+        color: white;
+        padding: 10px;
+      }
+      .hijo-1 span {
+        position: absolute;
+        left: 0;
+      }
+      .hijo-2 span {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .hijo-3 span {
+        position: absolute;
+        right: 0;
+      }
+      .hijo-4 span {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .hijo-5 span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .hijo-6 span {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+      }
+      .hijo-7 span {
+        position: absolute;
+        bottom: 0;
+      }
+      .hijo-8 span {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .hijo-9 span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    </style>
+    <div class="padre">
+      <div>
+        <div class="hijo hijo-1"><span>1</span></div>
+        <div class="hijo hijo-2"><span>2</span></div>
+        <div class="hijo hijo-3"><span>3</span></div>
+      </div>
+      <div>
+        <div class="hijo hijo-4"><span>4</span></div>
+        <div class="hijo hijo-5"><span>5</span></div>
+        <div class="hijo hijo-6"><span>6</span></div>
+      </div>
+      <div>
+        <div class="hijo hijo-7"><span>7</span></div>
+        <div class="hijo hijo-8"><span>8</span></div>
+        <div class="hijo hijo-9"><span>9</span></div>
+      </div>
+    </div>
+  </body>
+</html>

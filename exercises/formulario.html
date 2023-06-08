@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #233;
+      }
+      form {
+        background-color: darkslategrey;
+        color: white;
+      }
+      fieldset {
+        border: none;
+      }
+      fieldset label {
+        display: inline-block;
+        width: 150px;
+      }
+
+      fieldset input[type="submit"] {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 25px 10px 25px;
+      }
+      fieldset input {
+        background-color: transparent;
+        padding: 5px;
+        font-size: 1.5rem;
+        border: none;
+        border-bottom: 1px solid white;
+        color: white;
+        padding-left: 5px;
+      }
+      fieldset input:focus {
+        outline: 1px solid red;
+        border: none;
+      }
+      fieldset input::placeholder {
+        color: rgb(107, 72, 72);
+      }
+      #terms {
+        width: auto;
+      }
+      textarea {
+        height: 100px;
+        background-color: transparent;
+        padding: 5px;
+        font-size: 1.5rem;
+        border: 1px solid white;
+        color: white;
+        padding-left: 5px;
+        max-width: 300px;
+        width: 400px;
+        max-height: 50px;
+      }
+    </style>
+    <form action="">
+      <fieldset>
+        <label for="nombre">nombre</label>
+        <input id="nombre" value="nombre" type="text" />
+      </fieldset>
+      <fieldset>
+        <label for="apellido">apellido</label>
+        <input id="apellido" placeholder="tu apellido" autocomplete="on" type="text" />
+      </fieldset>
+      <fieldset>
+        <label for="email">email</label>
+        <input type="email" placeholder="email" name="" id="" />
+      </fieldset>
+      <fieldset>
+        <label for="mensajes">mensaje</label>
+        <textarea name="" id="" cols="50" rows="5" placeholder="mensaje"></textarea>
+      </fieldset>
+      <fieldset>
+        <label for="">contrasena</label>
+        <input maxlength="8" required type="password" name="" id="" />
+      </fieldset>
+      <fieldset>
+        <label for="edad">rango</label>
+        <input type="range" name="" id="" min="0" max="20" />
+      </fieldset>
+      <fieldset>
+        <label for="number">edad</label>
+        <input id="number" min="18" max="50" type="number" />
+      </fieldset>
+      <fieldset>
+        <input type="checkbox" name="" id="" />
+        <label id="terms" for="">aceptar terminos y condiciones</label>
+      </fieldset>
+      <fieldset>
+        <label for="">color</label>
+        <input type="color" name="" id="" />
+      </fieldset>
+      <fieldset>
+        <label for="">archivo</label>
+        <input type="file" name="archivo" id="" />
+      </fieldset>
+      <fieldset>
+        <label for="fecha">fecha</label>
+        <input type="date" name="" id="" />
+      </fieldset>
+      <fieldset>
+        <label for="opciones">opciones</label>
+        <select name="valor1" id="">
+          <option value="valor 1">valor 1</option>
+          <option value="valor 2">valor 2</option>
+          <option value="valor 3">valor 3</option>
+          <option value="valor 4">valor 4</option>
+          <option value="valor 5">valor 5</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <input type="submit" value="enviar" />
+      </fieldset>
+    </form>
+  </body>
+</html>

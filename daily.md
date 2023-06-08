@@ -8,7 +8,7 @@
 
 ## 07 de junio del 2023
 
-- [ ] text(font)
-- [ ] hacer un formulario, una carta de invitación.
-- [ ] css flex box
+- [x] text(font)
+- [x] hacer un formulario, una carta de invitación.
+- [x] css flex box
 - [ ] iniciar el proyecto de la página web.

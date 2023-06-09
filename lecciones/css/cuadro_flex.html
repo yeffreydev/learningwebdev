@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .flex {
+        display: flex;
+        background-color: blue;
+        border: 2px solid white;
+        gap: 10px;
+      }
+      .row {
+        height: 150px;
+      }
+      .column {
+        flex-direction: column;
+        width: 150px;
+        height: 800px;
+      }
+      .item {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+      .start-contenedor {
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+      }
+      .center-contenedor {
+        justify-content: center;
+      }
+      .end-contenedor {
+        justify-content: flex-end;
+      }
+      .around-contenedor {
+        justify-content: space-around;
+      }
+      .between-contenedor {
+        justify-content: space-between;
+      }
+      .evenly-contenedor {
+        justify-content: space-evenly;
+      }
+
+      .items-start {
+        align-items: flex-start;
+      }
+      .items-center {
+        align-items: center;
+      }
+      .items-end {
+        align-items: flex-end;
+      }
+    </style>
+    <div class="flex items-start row start-contenedor">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+    <div class="flex items-center row center-contenedor">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+    <div class="flex items-end row end-contenedor">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+    <div class="flex row around-contenedor">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+    <div class="flex row between-contenedor">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+    <div class="flex row evenly-contenedor">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+
+    <div class="flex row">
+      <div class="flex column start-contenedor">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+      <div class="flex column items-center center-contenedor">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+      <div class="flex column end-contenedor">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+      <div class="flex column around-contenedor">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+      <div class="flex column between-contenedor">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+      <div class="flex column evenly-contenedor">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+    </div>
+  </body>
+</html>

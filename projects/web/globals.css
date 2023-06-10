@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+:root {
+  --bg-color: #464c5a;
+  --color: #f3f9ff;
+  background: var(--bg-color);
+  color: var(--color);
+}

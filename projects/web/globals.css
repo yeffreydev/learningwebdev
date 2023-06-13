@@ -12,13 +12,16 @@ html {
 }
 
 /* Variables */
+/* Variables */
 :root {
   --bg: #c4dfdf; /* Fondo principal */
   --bg__sec: #d2e9e9; /* Fondo secundario */
-  --bg__sl: #e3f4f4;
+  --bg__sl: #f8f9fa; /* Fondo claro */
   --text: #212529; /* Texto */
-  --sl__text: #f8f6f4; /* texto claro */
+  --fw-text: 400; /* font weight */
+  --sl__text: #adb5bd; /* texto claro */
   --titulos: sans-serif; /* Titulos */
+  --fw-titulos: 700; /* font weight */
 }
 
 body {

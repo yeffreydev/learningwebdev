@@ -1,0 +1,93 @@
+:root {
+  --bg: #c4dfdf; /* Fondo principal */
+  --bg__sec: #d2e9e9; /* Fondo secundario */
+  --bg__sl: #e3f4f4;
+  --text: #212529; /* Texto */
+  --sl__text: #f8f6f4; /* texto claro */
+  --titulos: sans-serif; /* Titulos */
+}
+
+html{
+  line-height: 1.5;
+}
+.blog{
+  margin-top: 10rem;
+}
+p, a,h1,h2,h3{
+  font-size: 2rem; /*10px /16rem*/
+  line-height: normal;
+  margin-bottom: 15px ;
+  margin-top: 10px;
+}
+
+.body{
+
+  background-color: var(--bg);
+  color: var(--__text);
+}
+
+  .lista-uno {
+  
+    list-style: none;
+  }
+
+  .li{
+    margin-left: -2rem;
+  }
+  .sub{
+    text-decoration: none;
+   line-height: 1.5;
+    font-weight: bold;
+    margin-left: 1rem;
+  }
+  
+  .container {
+    display: flex;
+    gap: 15rem;
+   
+    justify-content: center;
+  }
+  .titulo-principal {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .caja-dos h2{
+    font-size: 2.5rem;
+  }
+  .imagen-titulo {
+    width: 50px; /* ajusta el ancho de la imagen */
+    height: 50px; /* ajusta la altura de la imagen */
+    border-radius: 50%; /* hace que la imagen sea circular */
+    overflow: hidden; /* oculta cualquier contenido que desborde */
+  }
+  .parrafo1 {
+    width: 400px;
+  }
+  .imagen-secu-contain{
+    margin-left: 0;
+  }
+  .imagen-secundaria {
+    width: 350px;
+    height: 60px;
+    
+  }
+  .item p {
+    line-height: 0.6;
+    font-weight: 800;
+  }
+  .imagen-tercera {
+    width: 200px;
+    height: 60px;
+  }
+  .pequeño {
+    width: 200px;
+  }
+ .h3-contenido{
+  margin-left: -6rem;
+ }
+ ul p{
+  font-weight: bolder;
+    
+ }

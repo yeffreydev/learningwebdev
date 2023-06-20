@@ -30,7 +30,7 @@ html {
 *::selection {
   background: var(--text);
   color: var(--bg__sl);
-} 
+}
 
 body {
   font-family: "Times New Roman", Times, serif;
@@ -64,6 +64,10 @@ p {
 
 .pg {
   padding: 6.4rem 0;
+}
+
+.pgt__xs {
+  padding-top: 0.4rem;
 }
 
 /* Section Nav */
@@ -105,35 +109,8 @@ p {
   display: inline-block;
 }
 
-.nav__logo-a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 0.2rem;
-  background: var(--text);
-  top: 50%;
-  opacity: 0;
-  transition: var(--trans);
-  -webkit-transition: var(--trans);
-  -moz-transition: var(--trans);
-  -ms-transition: var(--trans);
-  -o-transition: var(--trans);
-  transform-origin: left;
-  transform: scale(0);
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-}
-
-.nav__logo-a:hover::before {
-  color: rgba(0, 0, 0, 1);
-  opacity: 1;
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
+.nav__logo-a:hover {
+  text-shadow: 0.2rem 0 0.1rem black;
 }
 
 .form__nav {
@@ -389,16 +366,6 @@ p {
   -ms-transition: var(--trans);
   -o-transition: var(--trans);
 }
-.card__bloquote1 {
-  font-size: var(--font-p);
-  align-items: center;
-  gap: 1.4rem;
-  transition: var(--trans);
-  -webkit-transition: var(--trans);
-  -moz-transition: var(--trans);
-  -ms-transition: var(--trans);
-  -o-transition: var(--trans);
-}
 
 .card__bloquote:not(:last-of-type) {
   margin-bottom: 4.8rem;
@@ -430,9 +397,11 @@ p {
 }
 
 .card__text {
+  text-decoration: none;
   display: inline-block;
   position: relative;
   cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .card__text::before {
@@ -493,6 +462,10 @@ p {
 }
 
 .aside__article:not(:last-of-type) {
+  border-bottom: .1rem solid rgba(0, 0, 0, 0.5);
+}
+
+.aside__article:not(:last-of-type) {
   margin-bottom: 3.6rem;
 }
 
@@ -508,8 +481,18 @@ p {
   font-size: var(--font-t);
   font-weight: var(--fw-titulos);
   font-family: sans-serif;
+  transition: var(--trans);
+  -webkit-transition: var(--trans);
+  -moz-transition: var(--trans);
+  -ms-transition: var(--trans);
+  -o-transition: var(--trans);
+}
+
+.aside__article:hover .aside__title {
+  text-shadow: 0.2rem 0 0.1rem black;
 }
 
 .aside__text {
   font-size: var(--font-p);
+  margin-bottom: 1.2rem;
 }

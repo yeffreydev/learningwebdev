@@ -21,6 +21,7 @@ html{
   display: grid;
   grid-template-columns: [col-start] repeat(auto-fit, minmax(30rem, 1fr)) [col-end];
   align-items: center;
+  width: 100%;
   height: 6.2rem;
 }
 

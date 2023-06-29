@@ -14,6 +14,10 @@
 
 `git clone https://github.com/yeffreydev/learningwebdev.git`
 
+## move to web project
+
+`cd projects/web`
+
 ## instalar las dependencias
 
 `npm i` o `npm install`

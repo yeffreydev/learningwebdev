@@ -5,62 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="landing page" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css" type="text/css" />
+    <link rel="stylesheet" href="globals.css" />
+    <title>Hello latam</title>
   </head>
 
   <body>
-    <!-- Section Header -->
-    <header class="navegation">
-      <div class="container">
-        <nav class="nav-section">
-          <div class="nav__logo">
-            <a href="#" class="nav__logo-a">Logo</a>
-          </div>
-
-          <form class="form__nav">
-            <input
-              type="search"
-              id="search"
-              autocomplete="off"
-              class="search__nav"
-              placeholder="Search..."
-            />
-
-            <label for="search" class="nav__label">
-              <ion-icon name="search-outline" class="nav__icon"></ion-icon>
-            </label>
-          </form>
-
-          <section class="loging__section">
-            <!-- Loging notification -->
-            <div class="notification__loging">
-              <ion-icon
-                name="notifications-outline"
-                class="notification__icon"
-              ></ion-icon>
-            </div>
-
-            <!-- Loging user -->
-            <div class="loging__user">
-              <div class="loging__sect-user">
-                <img
-                  src="Img/log-img.jpg"
-                  alt="person loging"
-                  loading="lazy"
-                  class="loging__img"
-                />
-              </div>
-              <p class="loging__name">Daryl</p>
-            </div>
-          </section>
-        </nav>
-      </div>
-    </header>
-
     <main>
+      <header class="h01">
+        <div class="content">
+          <nav class="h01-nav">
+            <div class="h01-nav__logo">
+              <a href="/">Logo</a>
+            </div>
+            <form class="h01-nav__form">
+              <fieldset>
+                <input type="search" id="search" autocomplete="off" class="h01-nav__search" placeholder="Search..." />
+                <label for="search" class="h01-nav__label">
+                  <ion-icon name="search-outline" class="h01-nav__icon"></ion-icon>
+                </label>
+              </fieldset>
+            </form>
+
+            <ul class="h01-nav__links">
+              <!-- nav bar-->
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/challenges.html">Challenges</a>
+              </li>
+              <li><a href="/blog.html">blog</a></li>
+            </ul>
+
+            <!-- Loging notification -->
+            <div class="h01-nav__not">
+              <ion-icon name="notifications-outline" class="h01-nav__not-icon"></ion-icon>
+            </div>
+          </nav>
+        </div>
+      </header>
+
       <!-- Section main -->
       <section class="section__main">
-        <div class="container">
+        <div class="content">
           <!-- Section header -->
           <section class="section__header pg">
             <!-- Section article -->
@@ -70,9 +58,7 @@
                 <div class="card__img"></div>
 
                 <a href="blog.html" class="card__text">
-                  <h2 class="card__tittle">
-                    Un Gran titulo de un blog de ejemplo
-                  </h2>
+                  <h2 class="card__tittle">Un Gran titulo de un blog de ejemplo</h2>
                   <span class="card__date">20- 20-2020</span>
                 </a>
               </bloquote>
@@ -82,9 +68,7 @@
                 <div class="card__img"></div>
 
                 <a href="blog.html" class="card__text">
-                  <h2 class="card__tittle">
-                    Un Gran titulo de un blog de ejemplo
-                  </h2>
+                  <h2 class="card__tittle">Un Gran titulo de un blog de ejemplo</h2>
                   <span class="card__date">20- 20-2020</span>
                 </a>
               </bloquote>
@@ -94,9 +78,7 @@
                 <div class="card__img"></div>
 
                 <a href="blog.html" class="card__text">
-                  <h2 class="card__tittle">
-                    Un Gran titulo de un blog de ejemplo
-                  </h2>
+                  <h2 class="card__tittle">Un Gran titulo de un blog de ejemplo</h2>
                   <span class="card__date">20- 20-2020</span>
                 </a>
               </bloquote>
@@ -106,9 +88,7 @@
                 <div class="card__img"></div>
 
                 <a href="blog.html" class="card__text">
-                  <h2 class="card__tittle">
-                    Un Gran titulo de un blog de ejemplo
-                  </h2>
+                  <h2 class="card__tittle">Un Gran titulo de un blog de ejemplo</h2>
                   <span class="card__date">20- 20-2020</span>
                 </a>
               </bloquote>
@@ -118,9 +98,7 @@
                 <div class="card__img"></div>
 
                 <a href="blog.html" class="card__text">
-                  <h2 class="card__tittle">
-                    Un Gran titulo de un blog de ejemplo
-                  </h2>
+                  <h2 class="card__tittle">Un Gran titulo de un blog de ejemplo</h2>
                   <span class="card__date">20- 20-2020</span>
                 </a>
               </bloquote>
@@ -130,9 +108,7 @@
                 <div class="card__img"></div>
 
                 <a href="blog.html" class="card__text">
-                  <h2 class="card__tittle">
-                    Un Gran titulo de un blog de ejemplo
-                  </h2>
+                  <h2 class="card__tittle">Un Gran titulo de un blog de ejemplo</h2>
                   <span class="card__date">20- 20-2020</span>
                 </a>
               </bloquote>
@@ -148,10 +124,8 @@
                   <h2 class="aside__title">Titulo del Blog</h2>
 
                   <p class="aside__text pgt__xs">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Consectetur, cum sapiente? Error, quas. Iste accusantium,
-                    asperiores est eos temporibus ad odit odio assumenda
-                    sapiente vel? Magnam aliquid voluptate porro corporis?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cum sapiente? Error, quas. Iste accusantium, asperiores est eos temporibus ad odit odio assumenda sapiente
+                    vel? Magnam aliquid voluptate porro corporis?
                   </p>
                 </section>
               </article>
@@ -162,10 +136,8 @@
                 <div class="aside__text">
                   <h2 class="aside__title">Titulo del Blog</h2>
                   <p class="aside__text pgt__xs">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Consectetur, cum sapiente? Error, quas. Iste accusantium,
-                    asperiores est eos temporibus ad odit odio assumenda
-                    sapiente vel? Magnam aliquid voluptate porro corporis?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, cum sapiente? Error, quas. Iste accusantium, asperiores est eos temporibus ad odit odio assumenda sapiente
+                    vel? Magnam aliquid voluptate porro corporis?
                   </p>
                 </div>
               </article>
@@ -175,13 +147,7 @@
       </section>
     </main>
     <!-- Icons Js -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

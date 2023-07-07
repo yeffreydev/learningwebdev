@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop - vanilla js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="file" name="file" id="input_file" accept="image/jpeg, image/png">
+        <div class="drop_container">
+            <div id="drop_zone">
+                <span>
+                    Drag and drop image files or click to add image files.
+                </span>
+            </div>
+           
+        </div>
+        <div class="hide_preview_container preview_container">
+            <div id="preview_img">
+                <span>Choose Image</span>
+            </div>
+            <button class="hide clear_file">Clear Image</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

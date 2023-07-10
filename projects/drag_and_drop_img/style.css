@@ -36,7 +36,7 @@ body {
     display: flex;
     padding: 10px;
     gap: 15px;
-    height: 520px;
+    height: 90vh;
 }
 .hide {
     display: none;   

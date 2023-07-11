@@ -55,6 +55,7 @@ body {
     box-shadow: 1px 1px 10px -5px rgba(255, 255, 255, .28);
     color: #fff;
     font-family: var(--fuente-Sans);
+    text-align: center;
 }
 
 .preview_container {
